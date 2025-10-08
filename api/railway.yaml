@@ -1,0 +1,17 @@
+# Railway deployment configuration
+# Deploy for FREE on Railway.app
+
+build:
+  builder: DOCKERFILE
+  dockerfilePath: Dockerfile
+
+deploy:
+  startCommand: python server.py
+  restartPolicyType: ON_FAILURE
+  restartPolicyMaxRetries: 10
+
+# Environment variables (set these in Railway dashboard)
+# MODEL_SOURCE=gdrive
+# MODEL_URL=your_google_drive_url
+# MODEL_NAME=examsathi-model
+# PORT=5000

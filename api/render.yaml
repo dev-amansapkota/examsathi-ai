@@ -1,0 +1,18 @@
+# Render deployment configuration
+# Deploy for FREE on Render.com
+
+services:
+  - type: web
+    name: examsathi-ai-api
+    env: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    envVars:
+      - key: MODEL_SOURCE
+        value: gdrive
+      - key: MODEL_URL
+        sync: false  # Set this in Render dashboard
+      - key: MODEL_NAME
+        value: examsathi-model
+      - key: PORT
+        value: 5000

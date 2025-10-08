@@ -1,0 +1,22 @@
+[
+  {
+    "question": "What is photosynthesis?",
+    "answer": "Photosynthesis is the process by which green plants use sunlight, water, and carbon dioxide to produce oxygen and energy in the form of glucose. It occurs in the chloroplasts of plant cells."
+  },
+  {
+    "question": "Explain Newton's First Law of Motion",
+    "answer": "Newton's First Law states that an object at rest stays at rest and an object in motion stays in motion with the same speed and direction unless acted upon by an external force. This is also known as the law of inertia."
+  },
+  {
+    "question": "What is the Pythagorean theorem?",
+    "answer": "The Pythagorean theorem states that in a right-angled triangle, the square of the hypotenuse (the longest side) is equal to the sum of squares of the other two sides. The formula is: a² + b² = c²"
+  },
+  {
+    "question": "Define mitosis",
+    "answer": "Mitosis is a type of cell division where a single cell divides into two identical daughter cells, each containing the same number of chromosomes as the parent cell. It consists of prophase, metaphase, anaphase, and telophase."
+  },
+  {
+    "question": "What is the water cycle?",
+    "answer": "The water cycle is the continuous movement of water on, above, and below Earth's surface. It includes evaporation, condensation, precipitation, and collection. Water evaporates from oceans and land, forms clouds, falls as rain or snow, and returns to water bodies."
+  }
+]
